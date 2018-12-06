@@ -193,6 +193,7 @@ public class VisualBlockchain {
             boolean validSig = PublicKeyDemo.verifyMessage(input, PublicKeyDemo.signMessage(input, privateKey),
                     coinPubkeyTable.get(coinID));
             if (!validSig) {
+                transactionPoolInformation.setText("Invalid Key Pair");
                 throw new Exception("Invalid Key Pair");
             }
             return validSig;

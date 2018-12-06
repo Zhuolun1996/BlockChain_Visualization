@@ -27,4 +27,11 @@
     And you could see the interface of the program.
     ![image](https://github.com/Zhuolun1996/CS1699_VisualBLockchain/blob/master/CS1699_VisualCoin_1.png)
     
-    
+    Click "New Transaction" you will see the dialog of "New Transaction".
+    ![image](https://github.com/Zhuolun1996/CS1699_VisualBLockchain/blob/master/CS1699_VisualCoin_2.png)
+
+    Click "New Miner" you will see the dialog of "New Miner".
+    ![image](https://github.com/Zhuolun1996/CS1699_VisualBLockchain/blob/master/CS1699_VisualCoin_3.png)
+
+    Click "Start with Initiation" and click "Start Mining" three times, you will see there are two new miners and three blocks are generated. Move the mouse to the miners or blocks you will see the information of the miner or block.
+    ![image](https://github.com/Zhuolun1996/CS1699_VisualBLockchain/blob/master/CS1699_VisualCoin_4.png)

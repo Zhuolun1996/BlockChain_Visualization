@@ -1,3 +1,6 @@
+// Define a class to help create a thread on mining.
+// Use a variable to pass the information between the main thread and mining thread.
+
 import java.util.*;
 
 class miningThread implements Runnable {

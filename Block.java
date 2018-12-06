@@ -1,3 +1,8 @@
+// Define block.
+// Include the hash value of previouse block, number of transactions, time stamp, 
+// difficulty of the puzzle, concatRoot, transactions in the block, block's hash value,
+// the creator of the block and block identification.
+
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.HashMap;

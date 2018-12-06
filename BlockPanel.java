@@ -1,3 +1,5 @@
+// Extend the JPanel class, define a Panel that is used to show a block with whose name and given ID.
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;

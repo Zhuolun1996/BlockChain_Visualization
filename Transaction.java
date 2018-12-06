@@ -1,3 +1,6 @@
+// Define transaction
+// Include functions that analyse the transaction string.
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.regex.Matcher;

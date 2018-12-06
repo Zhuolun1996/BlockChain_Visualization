@@ -1,3 +1,7 @@
+// Define blockchain
+// Include some functions to add a block to current blockchain and 
+// analyse the entire block chain to find the owners of each coin.
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;

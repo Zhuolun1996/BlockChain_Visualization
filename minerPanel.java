@@ -1,3 +1,5 @@
+// Extend the JPanel class, define a Panel that is used to show a miner with whose name and given nonce.
+
 import javax.swing.*;
 import java.awt.*;
 

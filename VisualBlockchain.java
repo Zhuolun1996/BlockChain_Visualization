@@ -1,3 +1,6 @@
+// Main Class.
+// Generate GUI and implemente functions binding to the buttons.
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -171,21 +174,6 @@ public class VisualBlockchain {
         coinPubkeyTable = new HashMap<String, String>();
         miners=new ArrayList<Miner>();
         minerPanels=new ArrayList<minerPanel>();
-//        Block prevBlock = new Block(null, "0,CREATE,0000,302c021438f0d799617ce8df63fa9ce19933d6f0c0aa571402142a5ec931ed5869db154780d25a5282217a673f93,302d0215008d9a0e258486cf11f5e55ca0396bb61ff8d569c402147a09c9a7e63f225278d5b8262ce29a3e278a7c72");
-//        coinPubkeyTable = new HashMap<String, String>();
-//        try {
-//            StringCoin.verifyCREATE(prevBlock, prevBlock, coinPubkeyTable);
-//            coinPubkeyTable.put(prevBlock.getCoinID(),
-//                    prevBlock.getOwnersPubKey(coinPubkeyTable, prevBlock.getCoinID()));
-//        } catch (Exception ex) {
-//            System.out.println("Exception: " + ex);
-//            System.exit(-1);
-//        }
-//        coinPubkeyTable.put(prevBlock.getCoinID(), prevBlock.getOwnersPubKey(coinPubkeyTable, prevBlock.getCoinID()));
-//        Block newBlock = blockchain.addBlock("0,CREATE,0000,302c021438f0d799617ce8df63fa9ce19933d6f0c0aa571402142a5ec931ed5869db154780d25a5282217a673f93,302d0215008d9a0e258486cf11f5e55ca0396bb61ff8d569c402147a09c9a7e63f225278d5b8262ce29a3e278a7c72");
-//        BlockPanel initBlock = new BlockPanel(newBlock);
-//        blockchainPanel.setLayout(new FlowLayout());
-//        blockchainPanel.add(initBlock);
     }
 
     private boolean verifyTransaction(String coinID, String input, String privateKey) {

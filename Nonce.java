@@ -1,3 +1,5 @@
+// Define Nonce
+
 public class Nonce {
     private String nonce;
     private char c1;

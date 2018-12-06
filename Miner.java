@@ -1,3 +1,5 @@
+// Define class Miner which includes the miner's name, publickey, privatkey and a nonce the miner gives.
+
 public class Miner {
     private String name;
     private String publicKey;

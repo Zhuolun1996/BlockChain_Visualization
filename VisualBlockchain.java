@@ -36,7 +36,7 @@ public class VisualBlockchain {
     }
 
     private void initGUI() {
-        mainFrame = new JFrame("Java Swing Examples");
+        mainFrame = new JFrame("VisualBlockchain");
         mainFrame.setSize(1600, 800);
         mainFrame.setLayout(new GridLayout(1, 3));
         mainFrame.addWindowListener(new WindowAdapter() {

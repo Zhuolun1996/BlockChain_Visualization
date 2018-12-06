@@ -14,9 +14,13 @@ public class BlockPanel extends JPanel {
             setPreferredSize(new Dimension(60,60));
             setBackground(Color.PINK);
             setBorder(BorderFactory.createRaisedBevelBorder());
+            setLayout(new GridLayout(2, 1));
             JLabel blockName=new JLabel(block.getHashOfBlock().substring(block.getHashOfBlock().length()-4,block.getHashOfBlock().length()),JLabel.CENTER);
+            JLabel blockID=new JLabel("B"+block.getIdentification(),JLabel.CENTER);
             blockName.setBackground(Color.PINK);
+            blockID.setBackground(Color.PINK);
             add(blockName);
+            add(blockID);
         } catch (Exception e){
             System.out.println(e);
             System.exit(-1);

@@ -32,6 +32,8 @@ public class Block implements HashableObject {
 
     private String creator;
 
+    private String identification;
+
     public String getNumOfTransactions(){
         return numOfTransactions;
     }
@@ -58,6 +60,10 @@ public class Block implements HashableObject {
 
     public String getPrevHash(){
         return _prevHash;
+    }
+
+    public String getIdentification(){
+        return identification;
     }
 
     public String getTransaction(){
@@ -146,8 +152,11 @@ public class Block implements HashableObject {
         creator=_creator;
         if (predecessor == null) {
             _prevHash = "0";
+            identification = "0";
         } else {
             _prevHash = predecessor.getHashOfBlock();
+            Integer newID=Integer.parseInt(predecessor.getIdentification())+1;
+            identification=newID.toString();
         }
         _hp = new HashPointer(predecessor);
         _data=getTransaction();
